@@ -24,7 +24,7 @@ def get_results(search_term):
 get_results("dog")
 
 feedUrls = results
-email(feddUrls)
+email(feedUrls)
   
 def email(feedUrls):
 searchVar1 = feedUrls
