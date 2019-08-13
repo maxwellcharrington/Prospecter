@@ -21,11 +21,12 @@ def get_results(search_term):
     results.append(href)
   browser.close()
   return results
-
 get_results("dog")
 
-def email(results)
-query = results
-
-for url in search(query, stop=20):
+feedUrls = results
+email(feddUrls)
+  
+def email(feedUrls):
+searchVar1 = feedUrls
+for searchVar2 in search(searchVar1, stop=20):
     print(url)
